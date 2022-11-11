@@ -22,7 +22,7 @@ class Player(pygame.sprite.Sprite):
         self.rect = self.surf.get_rect()
         self.acc = vec(0,0)
         self.vel = vec(0,0)
-        self.pos = vec(200,150)
+        self.pos = vec(width/2,height)
         self.score = 0
     def move(self):
         self.acc = vec(0,ACC)
