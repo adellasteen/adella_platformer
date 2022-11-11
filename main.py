@@ -24,6 +24,7 @@ class Player(pygame.sprite.Sprite):
         self.vel = vec(0,0)
         self.pos = vec(width/2,height)
         self.score = 0
+        
     def move(self):
         self.acc = vec(0,ACC)
         keys = pygame.key.get_pressed()
